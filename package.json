@@ -1,0 +1,20 @@
+{
+  "name": "arcdps-log-web-viewer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "preprocess": "node preprocess.js"
+  },
+  "dependencies": {
+    "vue": "^3.4.15",
+    "vuejs-paginate-next": "^1.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "vite": "^5.1.0"
+  }
+}
