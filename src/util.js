@@ -1,6 +1,6 @@
 import { computed } from "vue";
 
-export const VITE_BASENAME = import.meta.env.VITE_BASENAME;
+export const VITE_BASENAME = import.meta.env?.VITE_BASENAME;
 
 export const roundTo = function( num, decimal ) { return Math.round( ( num + Number.EPSILON ) * Math.pow( 10, decimal ) ) / Math.pow( 10, decimal ); }
 
